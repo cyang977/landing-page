@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;  
+  align-self: flex-start;
+  align-items: center;
+  background-color: #FE7F9C;
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive, sans-serif;
+    color: white;
+    padding-left: 50px;
+}
+
+.right-links {
+    display: flex;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FC46AA;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding-bottom: 30px;
+    width: 100%;
+    gap: 40px;
+}
+
+.inside-first {
+    width: 300px;
+    padding-left: 150px;
+}
+
+.img-first {
+    padding-top: 30px;
+}
+img {
+    margin-right: 200px;
+    width: 350px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #E11584;
+    border-width: 3px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-bottom: 0%;
+}
+
+.hero-small {
+  font-size: 20px;
+  font-family: "Bradley Hand", sans-serif;
+  color: white;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reasons {
+    display: flex;
+}
+
+.flower,
+.steak,
+.chocolate,
+.movie {
+  width: 100px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;  
+  font-size: 18px;
+  color: black;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+}
